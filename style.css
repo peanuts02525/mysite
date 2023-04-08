@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.7;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%
+}
+
+.logo {
+  width: 50px;
+  margin-top: 8px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: black;
+}
+
+.main-nav a:hover {
+  color: silver;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 4%;
+}
+
+/* HOME */
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p {
+  font-size: 1,125ren;
+  margin: 10px 0 42px;
+}
+
+.page-title {
+ font-size: 1.375ren;
+ text-transform: uppercase;
+ font-weight:normal;
+}
+
+.button {
+ font-size: 1.375ren;
+ background: blue;
+ color: white;
+ border-radius: 8px;
+ padding: 18px 32px;
+}
+
+.button:hover {
+  background: skyblue;
+}
+
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(coffee_cup_paper.png),linear-gradient(rgb(95, 228, 95), white);
+  background-blend-mode: luminosity;
+  min-height: 100vh;
+}
+
+#home .page-title {
+ text-transform: none;
+}
